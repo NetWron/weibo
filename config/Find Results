@@ -1,0 +1,50 @@
+Searching 23438 files for "App\User"
+
+/Users/hans/Code/weibo/app/Http/Controllers/Auth/RegisterController.php:
+    5  use App\Http\Controllers\Controller;
+    6  use App\Providers\RouteServiceProvider;
+    7: use App\User;
+    8  use Illuminate\Foundation\Auth\RegistersUsers;
+    9  use Illuminate\Support\Facades\Hash;
+   ..
+   61       *
+   62       * @param  array  $data
+   63:      * @return \App\User
+   64       */
+   65      protected function create(array $data)
+
+/Users/hans/Code/weibo/storage/logs/laravel.log:
+   43  #40 {main}
+   44  "}
+   45: [2020-03-26 18:35:01] local.ERROR: Class '\App\User' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Class '\\App\\User' not found at /home/vagrant/Code/weibo/vendor/laravel/framework/src/Illuminate/Auth/EloquentUserProvider.php:183)
+   46  [stacktrace]
+   47  #0 /home/vagrant/Code/weibo/vendor/laravel/framework/src/Illuminate/Auth/EloquentUserProvider.php(170): Illuminate\\Auth\\EloquentUserProvider->createModel()
+   ..
+  137  #40 {main}
+  138  "}
+  139: [2020-03-27 04:41:00] local.ERROR: Class '\App\User' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Class '\\App\\User' not found at /home/vagrant/Code/weibo/vendor/laravel/framework/src/Illuminate/Auth/EloquentUserProvider.php:183)
+  140  [stacktrace]
+  141  #0 /home/vagrant/Code/weibo/vendor/laravel/framework/src/Illuminate/Auth/EloquentUserProvider.php(170): Illuminate\\Auth\\EloquentUserProvider->createModel()
+  ...
+  323  #40 {main}
+  324  "}
+  325: [2020-03-27 05:13:37] local.ERROR: Class '\App\User' not found (View: /home/vagrant/Code/weibo/resources/views/layouts/_header.blade.php) {"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Class '\\App\\User' not found (View: /home/vagrant/Code/weibo/resources/views/layouts/_header.blade.php) at /home/vagrant/Code/weibo/vendor/laravel/framework/src/Illuminate/Auth/EloquentUserProvider.php:183)
+  326  [stacktrace]
+  327  #0 /home/vagrant/Code/weibo/vendor/laravel/framework/src/Illuminate/Auth/EloquentUserProvider.php(48): Illuminate\\Auth\\EloquentUserProvider->createModel()
+  ...
+  461  #65 {main}
+  462  "}
+  463: [2020-03-27 05:23:27] local.ERROR: Class '\App\User' not found (View: /home/vagrant/Code/weibo/resources/views/users/_user.blade.php) {"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Class '\\App\\User' not found (View: /home/vagrant/Code/weibo/resources/views/users/_user.blade.php) at /home/vagrant/Code/weibo/vendor/laravel/framework/src/Illuminate/Auth/EloquentUserProvider.php:183)
+  464  [stacktrace]
+  465  #0 /home/vagrant/Code/weibo/vendor/laravel/framework/src/Illuminate/Auth/EloquentUserProvider.php(48): Illuminate\\Auth\\EloquentUserProvider->createModel()
+
+6 matches across 2 files
+
+
+Searching 23438 files for "App\User"
+
+
+
+Searching 23438 files for "App\User"
+
+0 matches
